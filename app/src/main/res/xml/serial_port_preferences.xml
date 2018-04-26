@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="系统配置">
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogTitle="输入点位Id"
+            android:key="NODE_ID"
+            android:title="点位Id" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:dialogTitle="输入密码"
+            android:key="PASSWORD"
+            android:title="密码" />
+        <ListPreference
+            android:key="DEVICE"
+            android:persistent="true"
+            android:title="COM端口" />
+        <Preference
+            android:key="confirm"
+            android:title="配置完毕" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="辅助工具">
+        <Preference
+            android:key="SETTING"
+            android:title="打开系统设置" />
+        <Preference
+            android:key="openbaidu"
+            android:title="打开百度" />
+        <Preference
+            android:key="filemanager"
+            android:title="文件管理器" />
+        <Preference
+            android:key="launcher"
+            android:title="系统桌面" />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

@@ -1,0 +1,28 @@
+<!-- 
+Licensed Materials - Property of IBM
+
+5747-SM3
+
+(C) Copyright IBM Corp. 1999, 2012 All Rights Reserved.
+
+US Government Users Restricted Rights - Use, duplication or
+disclosure restricted by GSA ADP Schedule Contract with
+IBM Corp.
+ -->
+<resources>
+
+    <string name="app_name">电子机</string>
+    <string name="invalid_config_pc">请配置点位id和密码</string>
+
+    <string name="new_app_version_found">检测到APP新版本，开始下载</string>
+    <string name="new_screen_version_found">检测到轮播图新版本，开始下载</string>
+    <string name="update_app_tip">现在更新APP版本</string>
+
+    <string name="reboot_tip">即将重启机器</string>
+    <string name= "invalid_password">点位密码错误</string>
+
+    <!-- Strings that need formatting  -->
+
+    <!-- Hints -->
+
+</resources>
